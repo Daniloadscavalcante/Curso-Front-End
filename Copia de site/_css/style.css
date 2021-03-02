@@ -11,20 +11,23 @@
     background-color: #ECF0F1;
 }
 .img-capa img{
-    width: 60%;
+    position: absolute;
+    width: 75%;
     height: auto;   
-    margin-top: 30%;
-    margin-left: 10%;
+    top: 22%;
+    margin-left: 15%;
+    
 }
 .img-capa{
-    width: 90%;
-    height: 521px;    
-    background-color: orange;
+    position: relative;
+    width: 88%;
+    height: auto;    
+    padding: 0 10px;
 }
 .box-txt{
-    width: 65%;
+    width: 72%;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 25px 60px;
 }
 .img-responsive{
     
@@ -43,26 +46,52 @@
     color: #55636f;
     text-align:left;
     margin-top: 1rem;
+    padding-right: 50px;
 }
 h5{
     font-family: Montserrat;
-    font-size: 28px;    
+    font-size: 25px;    
     font-weight: 900;
     line-height: 26px;
     color: #E74C3C;    
 }
 button{
     margin-top: 2rem;
-    width: 90%;
-    height: 110px;
+    width: 84%;
+    height: 87px;
     text-transform: uppercase;
     color: #fff;
-    background-color: #35A7FF;
+    background-color: #239cf8;
     font-family: "Open Sans";
-    font-weight: 900;
+    font-weight: 9000;
     font-size: 20px;
     line-height: 25px;
     border: none;
-    border-radius: 4px;
+    border-radius: 4px;    
+}
+
+/*conteudo*/
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 40px;
+}
+
+.conteudo{
+    display: flex;
+    text-align: center;
     
+}
+article{
+    width: 33%;
+    height: auto;    
+    margin-left: 3px;
+    padding: 0 50px;    
+}
+article p{
+    font-size: 15px;
+    line-height: 29px;
+    color: #55636f;
+    font-family: "Open Sans";
+    font-weight: 400;   
 }
